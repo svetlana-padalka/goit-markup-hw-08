@@ -38,8 +38,8 @@
 
 // 0px - 1199px
 @media screen and (max-width: 1199px) {
-  .contact-list__item:not(:last-child) {
-    margin-bottom: 8px;
+  .footer__contact {
+    text-align: center;
   }
 
   .footer__address {
@@ -47,10 +47,13 @@
     justify-content: center;
     align-items: center;
   }
-
-  .contact-list__item {
-    text-align: center;
+  .contact-list__item:not(:last-child) {
+    margin-bottom: 8px;
   }
+
+  // .contact-list__item {
+  //   text-align: center;
+  // }
 }
 
 // 0px - 767px
